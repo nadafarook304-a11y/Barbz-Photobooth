@@ -426,9 +426,18 @@ python script.py -v --format json data.json
 ## Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+[https://drive.google.com/file/d/1NazREayh3audSaJWf7LCS0v1sv6FaEZ7/view?usp=sharing]
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
+*This demonstration showcases the seamless, end-to-end user journey of the BARBZ PhotoBooth, highlighting its zero-latency, client-side architecture.
+Key technical moments shown in the video:
+
+Instant Initialization: Watch how the app requests camera permissions and immediately initializes the stream using the MediaDevices API.
+
+Dynamic Filter Application: Observe the real-time transition as CSS filters are applied to the video element, transforming the raw feed into our signature Y2K aesthetics.
+
+The "Diva" Loop: See the recursive logic in action—the app presents a randomized challenge, triggers a dramatic countdown, and snapshots the canvas.
+
+The "Magic" Stitch: The demo concludes with our custom downloadFinal() function. Notice the immediate generation of the final image, where captured frames are automatically composited onto a custom background and triggered for download—no backend, no server, no lag.*
 
 ### Additional Demos
 [Add any extra demo materials/links - Live site, APK download, online demo, etc.]
