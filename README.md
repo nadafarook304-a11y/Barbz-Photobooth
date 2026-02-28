@@ -90,10 +90,10 @@ cd barbz-photobooth]
 
 #### Screenshots (Add at least 3)
 
-!(main page)
+![Screenshot 1](front end.png)
 *This is the front end.
 
-!(Filter selection)
+![Screenshot 2](filter.png)
 * Users can toggle between Glam, Vintage, and Barbie-core filters in real-time to get that perfect Y2K aesthetic.*
 
 ![Screenshot 3]
@@ -104,8 +104,7 @@ cd barbz-photobooth]
 
 **System Architecture:**
 
-![Architecture Diagram](<img width="1536" height="1024" alt="system arch" src="https://github.com/user-attachments/assets/532a70e4-d118-470a-abae-226aca80ee5a" />
-)
+!()
 The BARBZ Photobooth uses a client-side web architecture, meaning all processing happens inside the user’s browser without any backend server.
 
  Main Components
@@ -137,7 +136,7 @@ The system is lightweight, secure, and fully client-side, with no server or data
 
 **Application Workflow:**
 
-![Workflow]()
+![Workflow](app workflow.png)
 *The BARBZ Photobooth follows a simple, event-driven workflow inside the browser.
 
  Step-by-Step Workflow
