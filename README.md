@@ -98,20 +98,79 @@ cd barbz-photobooth]
 ](Filter selection)
 * Users can toggle between Glam, Vintage, and Barbie-core filters in real-time to get that perfect Y2K aesthetic.*
 
-![](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![<img width="380" height="810" alt="BARBZ-photo-strip (27)" src="https://github.com/user-attachments/assets/5b7bcfc6-42e9-4dc5-a52c-1025d9367c06" />
+](Downloaded file)
+*One-click download: Your memories, perfectly curated and ready to share.*
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+![Architecture Diagram](<img width="1536" height="1024" alt="system arch" src="https://github.com/user-attachments/assets/532a70e4-d118-470a-abae-226aca80ee5a" />
+)
+The BARBZ Photobooth uses a client-side web architecture, meaning all processing happens inside the user’s browser without any backend server.
+
+ Main Components
+
+User Interface (HTML & CSS)
+Displays buttons, camera preview, countdown, and final photo strip.
+
+Application Logic (JavaScript)
+Controls workflow, manages filters and layout selection, runs countdown, and handles photo capture.
+
+Camera Access (WebRTC API)
+Uses getUserMedia() to access the device camera and stream live video.
+
+Image Processing (Canvas API)
+Captures video frames, applies filters, and converts images into PNG format.
+
+Output Generation
+Combines captured images into a vertical photo strip and allows download.
+
+ Data Flow
+
+User Action → Camera Activation → Filter & Layout Selection → Countdown → Photo Capture → Image Processing → Final Photo Strip → Download
+
+ Tech Stack Interaction
+
+HTML (structure) + CSS (design) + JavaScript (logic) + WebRTC (camera) + Canvas API (image processing) all work together inside the browser.
+
+The system is lightweight, secure, and fully client-side, with no server or database required.
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+![Workflow]()
+*The BARBZ Photobooth follows a simple, event-driven workflow inside the browser.
+
+ Step-by-Step Workflow
+
+Start Application
+User opens the website.
+
+Insert Coin
+User clicks Insert Coin → Camera permission is requested.
+
+Camera Activation
+Live video stream appears on screen.
+
+Select Filter & Layout
+User chooses a filter (Normal, Glam, Vintage, etc.) and layout (2, 3, or 4 photos).
+
+Show Challenge & Countdown
+A random pose challenge is displayed.
+A 3-second countdown begins.
+
+Capture Photo
+The current video frame is captured using the Canvas API and saved.
+
+Repeat Until Complete
+Steps 2-4 repeat based on selected layout.
+
+Generate Photo Strip
+All captured photos are combined into one vertical strip.
+
+Download Output
+Final PNG photo strip is generated and downloaded.*
 
 ---
 
