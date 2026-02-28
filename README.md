@@ -104,7 +104,7 @@ cd barbz-photobooth]
 
 **System Architecture:**
 
-!()
+!(system arch.png)
 The BARBZ Photobooth uses a client-side web architecture, meaning all processing happens inside the user’s browser without any backend server.
 
  Main Components
@@ -439,12 +439,12 @@ python script.py -v --format json data.json
 
 If you used AI tools during development, document them here for transparency:
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+**Tool Used:** [e.g.Gemini, ChatGPT, Google]
 
 **Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+ "For additional features"
+ "Hex code for colour"
+
 
 **Key Prompts Used:**
 - "Create a REST API endpoint for user authentication"
