@@ -90,16 +90,14 @@ cd barbz-photobooth]
 
 #### Screenshots (Add at least 3)
 
-![<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a6c26e08-5f97-440e-9c52-aace727ee207" />
-](main page)
+!(main page)
 *This is the front end.
 
-![<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2be1d35-d49c-4859-bf5c-c865eaf4e29b" />
-](Filter selection)
+!(Filter selection)
 * Users can toggle between Glam, Vintage, and Barbie-core filters in real-time to get that perfect Y2K aesthetic.*
 
-![<img width="380" height="810" alt="BARBZ-photo-strip (27)" src="https://github.com/user-attachments/assets/5b7bcfc6-42e9-4dc5-a52c-1025d9367c06" />
-](Downloaded file)
+![Screenshot 3]
+(BARBZ-photo-strip(27).png)
 *One-click download: Your memories, perfectly curated and ready to share.*
 
 #### Diagrams
