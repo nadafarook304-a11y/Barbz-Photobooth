@@ -1,0 +1,147 @@
+body {
+  /* 1. The image */
+  background-image: url('bot.jpg.jpeg'); 
+  
+  /* 2. Fallback color (if the image fails to load, you still get that pink) */
+  background-color: #ffb6c1; 
+  
+  /* 3. Positioning the image to fill the screen */
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the background steady if you scroll */
+
+  /* 4. Keep your existing layout styles */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #333;
+
+}
+
+.booth {
+  background-color: #eb8da9;
+  border: 4px solid #efb3d3;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 10px 20px rgba(210, 128, 195, 0.15);
+  max-width: 400px;
+  width: 90%;
+}
+
+.hidden { display: none !important; }
+
+h2 { color: #d03487; }
+
+button {
+  background-color: #d2a5bc;
+  color: rgb(236, 227, 230);
+  border: none;
+  padding: 12px 24px;
+  margin: 8px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover { background-color: #ff1493; }
+
+#video {
+  width: 100%;
+  border-radius: 10px;
+  transform: scaleX(-1);
+}
+
+#photos {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#photos img {
+  width: 90%; /* Photos now fill the frame better */
+  margin-bottom: 10px;
+  border: 2px solid rgb(225, 194, 210);
+}
+#countdown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  
+  /* The "Sparkle Pink" Vibe */
+  font-size: 8rem;
+  font-weight: bold;
+  color: #ff1493; /* Hot Pink base */
+  text-shadow: 
+    0 0 10px #ffffff, 
+    0 0 20px #ff69b4, 
+    0 0 30px #ff1493; /* Multiple layers for that glitter look */
+  
+  /* Make sure it sits on top */
+  pointer-events: none; 
+}
+
+/* The Dramatic Animation (Combines with the Sparkle) */
+@keyframes dramatic-pop {
+  0% { transform: translate(-50%, -50%) scale(0.5); opacity: 0; }
+  50% { transform: translate(-50%, -50%) scale(1.5); opacity: 1; }
+  100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+
+.dramatic-animation {
+  animation: dramatic-pop 1s ease-in-out;
+} 
+.booth {
+  /* This creates a soft pink glow around your main container */
+  box-shadow: 0 0 20px rgba(255, 20, 147, 0.4), 0 0 40px rgba(255, 20, 147, 0.2);
+}
+
+button {
+  /* Makes buttons look like they are vibrating with light */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05); /* Buttons "jump" slightly when touched */
+}
+.booth {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* This is the "frost" magic */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+/* Define the animation */
+@keyframes fadeInSlide {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Apply it to your container */
+.booth {
+  animation: fadeInSlide 0.8s ease-out;
+}
+/* When the user hovers over a photo, it slightly grows */
+#photos img {
+  transition: transform 0.3s ease-in-out;
+}
+button {
+  /* A gradient that goes from pastel pink to hot magenta */
+  background: linear-gradient(135deg, #FFC1CC, #FF69B4);
+  border: 2px solid white;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3);
+  transition: background 0.4s ease;
+}
+
+button:hover {
+  /* Flips the gradient on hover for a "shimmer" effect */
+  background: linear-gradient(135deg, #FF69B4, #FF1493);
+}

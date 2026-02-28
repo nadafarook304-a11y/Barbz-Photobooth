@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BARBZ Photobooth</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="booth">
+  <h2>🎀 BARBZ PHOTOBOOTH</h2>
+  <button id="coinBtn">INSERT COIN</button>
+
+  <div id="frameSelect" class="hidden">
+    <h3>Select Filter</h3>
+    <button onclick="setFilter('none')">Normal</button>
+    <button onclick="setFilter('grayscale(100%)')">Black & White</button>
+    <button onclick="setFilter('brightness(1.2) contrast(1.1) saturate(1.2)')">✨ GLAM</button>
+<button onclick="setFilter('sepia(0.5) contrast(1.2) hue-rotate(-10deg)')">📸 VINTAGE</button>
+<button onclick="setFilter('blur(0px) saturate(1.5) brightness(1.1)')">💖 BARBZ PINK</button>
+  </div>
+
+  <div id="layoutSelect" class="hidden">
+    <h3>Select Layout</h3>
+    <button onclick="setLayout(2)">2 CUT</button>
+    <button onclick="setLayout(3)">3 CUT</button>
+    <button onclick="setLayout(4)">4 CUT</button>
+  </div>
+
+  <div id="challengeBox" class="hidden">
+    <h3 id="challengeText"></h3>
+    <button onclick="startCountdown()">Do It 😎</button>
+  </div>
+
+  <div id="cameraSection" class="hidden">
+    <h1 id="countdown"></h1>
+    <video id="video" autoplay playsinline></video>
+  </div>
+
+  <canvas id="canvas" class="hidden"></canvas>
+
+  <div id="result" class="hidden">
+    <h3>Your Photo Strip</h3>
+    <div id="photos"></div>
+    <button onclick="downloadFinal()">Download</button>
+    <button onclick="location.reload()">Retake</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>  
