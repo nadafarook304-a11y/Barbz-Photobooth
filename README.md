@@ -2,27 +2,29 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [TEAM JILJIL]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [NADA FAROOK] - [TKM  COLLEGE OF ENGINEERING]
+- Member 2: [ARSHA PR] - [TKM  COLLEGE OF ENGINEERING]
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[ https://nadafarook304-a11y.github.io/BARBZ/]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Flashy. Retro. Totally Iconic.
+
+Welcome to the BARBZ PhotoBooth—the digital kiosk that turns your webcam into a Y2K fever dream.Why pay when u can actually digitally access it for free.]
 
 ### The Problem statement
-[What problem are you solving?]
+[raditional photobooths are stationary, expensive, and inaccessible for casual, spontaneous creative use. Furthermore, modern photo apps prioritize high-definition, over-processed aesthetics, which often dilute the authentic, lo-fi, "analog" charm of the early 2000s mall kiosk experience. There is a notable lack of web-based tools that allow users to capture, style, and generate retro-styled, scrapbook-ready photo strips without the need for bulky hardware or downloading a dedicated app.]
 
 ### The Solution
-[How are you solving it?]
+[The Barbz PhotoBooth is a browser-based creative engine that transforms static image files into iconic, branded photo strips. By utilizing an intuitive file-upload workflow, the application instantly composites user photos with a suite of Y2K-themed overlays, stamps, and frames. It serves as a "nostalgia-as-a-service" platform]
 
 ---
 
@@ -31,25 +33,26 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: HTML5, CSS3, JavaScript (ES6+)
+- Frameworks used: None
+- Libraries used: None
+- Tools used: VS Code, Git, Browser DevTools
 
 **For Hardware:**
-- Main components: [List main components]
+- Main components: [Computer with an integrated or USB Webcam]
 - Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Tools required: [Modern Web Browser (Chrome, Firefox, Edge, or Safari)]
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Interactive Y2K UI: [A "Barbie-core" aesthetic with glassmorphism, neon gradients, and responsive layouts.]
+- Dynamic Filter System: [Real-time CSS filter application (Glam, Vintage, B&W,Normal,Barbzpink) directly on the camera stream.]
+- Auto-Strip Generation: [Procedural stitching of photos into a 2, 3, or 4-cut physical-style film strip.]
+- Diva Countdown: [A dramatic, animated countdown timer to help users strike the perfect pose.]
+- One-Click Download: [Instant rendering of the final composite image for easy sharing and printing.]
 
 ---
 
@@ -59,7 +62,11 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[# 1. Clone the repository
+git clone https://github.com/[your-username]/barbz-photobooth.git
+
+# 2. Navigate to the project directory
+cd barbz-photobooth]
 ```
 
 #### Run
@@ -70,10 +77,10 @@ List the key features of your project:
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+[N/A - This is a pure software project. No external hardware components are required.]
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+[There is no circuit setup. The "hardware" is simply the device's integrated webcam or a connected USB camera.]
 
 ---
 
@@ -83,13 +90,15 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a6c26e08-5f97-440e-9c52-aace727ee207" />
+](main page)
+*This is the front end.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2be1d35-d49c-4859-bf5c-c865eaf4e29b" />
+](Filter selection)
+* Users can toggle between Glam, Vintage, and Barbie-core filters in real-time to get that perfect Y2K aesthetic.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
 #### Diagrams
